@@ -1,9 +1,12 @@
 import Image from 'next/image'
+import BigTextInTheMiddle from '@/components/layout/BigTextInTheMiddle'
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-5xl font-black" >the summer of ai</h1>
+    <main >
+      <BigTextInTheMiddle>the summer of ai</BigTextInTheMiddle>
+      <p>and other stuff will be here</p>
     </main>
   )
 }
